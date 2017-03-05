@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="custom_float_user_photo_alpha_day" format="float" type="dimen">1.0</item>
+    <item name="custom_float_user_photo_alpha_night" format="float" type="dimen">0.5</item>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/custom_attr_app_bg"
+    android:id="@id/custom_id_app_background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" >
+
+    <View
+        android:background="?attr/custom_attr_app_title_layout_bg"
+        android:id="@id/custom_id_title_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <RelativeLayout
+        android:background="?attr/custom_attr_app_title_layout_bg"
+        android:layout_below="@id/custom_id_title_status_bar"
+        android:id="@id/custom_id_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp" >
+
+        <TextView
+            android:textSize="28dp"
+            android:text="MarioStudio"
+            android:id="@+id/list_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="?attr/custom_attr_main_title_color" />
+
+        <RelativeLayout
+            android:layout_width="52dp"
+            android:layout_height="28dp"
+            android:id="@+id/list_checkbox_bg"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="?attr/custom_attr_check_box_bg" >
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/list_checkbox_thumb"
+                android:background="?attr/custom_attr_check_box_thumb_bg"
+                android:layout_marginLeft="?attr/custom_attr_check_box_thumb_margin_left" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:overScrollMode="never"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:id="@+id/list_recycler_view"
+        android:layout_height="match_parent"
+        android:layout_below="@id/custom_id_title_layout" />
+</RelativeLayout>

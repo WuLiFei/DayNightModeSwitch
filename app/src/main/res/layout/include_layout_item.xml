@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/custom_attr_app_content_layout_bg"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/item_div_top"
+        layout="@layout/include_recycler_view_div" />
+
+    <LinearLayout
+        android:background="?selectableItemBackground"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="52dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="8dp" >
+
+        <TextView
+            android:text="标题"
+            android:textSize="18dp"
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/custom_attr_main_text_color" />
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="1px" />
+
+        <TextView
+            android:text="描述"
+            android:textSize="14dp"
+            android:id="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/custom_attr_sub_text_color" />
+
+        <ImageView
+            android:padding="3dp"
+            android:layout_width="18dp"
+            android:id="@+id/item_arrow"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_arrow" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/item_div_bottom"
+        layout="@layout/include_recycler_view_div" />
+</LinearLayout>

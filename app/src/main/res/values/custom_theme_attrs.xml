@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 控制app背景色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_app_bg" format="color|reference" />
+    <!-- 控制app标题栏背景色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_app_title_layout_bg" format="color|reference" />
+    <!-- 控制app内容区背景色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_app_content_layout_bg" format="color|reference" />
+    <!-- 控制app内容区分割线颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_app_content_layout_div_color" format="color|reference" />
+
+    <!-- 控制按钮背景色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_btn_bg" format="color|reference" />
+    <!-- 控制按钮上的字体颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_btn_text_color" format="color|reference" />
+
+    <!-- 控制副文本字体颜色，如：提示、描述 format:颜色值、资源引用 -->
+    <attr name="custom_attr_sub_text_color" format="color|reference" />
+    <!-- 控制主文本字体颜色，如：标题、标签 format:颜色值、资源引用 -->
+    <attr name="custom_attr_main_text_color" format="color|reference|" />
+
+    <!-- CheckBox背景色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_check_box_bg" format="reference" />
+    <!-- CheckBox指示器颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_check_box_thumb_bg" format="reference" />
+    <!-- 首页大标题颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_main_title_color" format="color|reference" />
+    <!-- CheckBox指示器marginLeft format:尺寸值、资源引用 -->
+    <attr name="custom_attr_check_box_thumb_margin_left" format="dimension|reference" />
+
+    <!-- 用户头像显示的透明度 format:尺寸值、资源引用 -->
+    <attr name="custom_attr_user_photo_alpha" format="dimension|reference" />
+    <!-- 用户头像显示占位Drawable format:颜色值、资源引用 -->
+    <attr name="custom_attr_user_photo_place_holder" format="color|reference" />
+
+    <!-- 用户昵称字体颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_nickname_text_color" format="color|reference" />
+    <!-- 用户备注字体颜色 format:颜色值、资源引用 -->
+    <attr name="custom_attr_remark_text_color" format="color|reference" />
+</resources>

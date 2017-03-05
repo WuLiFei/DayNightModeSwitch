@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_01" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_02" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_03" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_04" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_05" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_06" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_07" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_08" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_09" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_10" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_11" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_12" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_13" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_14" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_15" android:duration="110"/>
+    <item android:drawable="@drawable/frame_mode_translation_turn_day_16" android:duration="110"/>
+</animation-list>

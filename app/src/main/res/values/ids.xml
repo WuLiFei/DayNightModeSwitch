@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="custom_id_title_status_bar" type="id" />
+    <item name="custom_id_title_layout" type="id" />
+
+    <item name="custom_id_app_background" type="id" />
+</resources>

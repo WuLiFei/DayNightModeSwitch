@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_dimen_thumb_margin_left_day">4dp</dimen>
+    <dimen name="custom_dimen_thumb_margin_left_night">28dp</dimen>
+</resources>

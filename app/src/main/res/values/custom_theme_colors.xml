@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_color_check_box_bg_day">#FF29303B</color>
+    <color name="custom_color_check_box_bg_night">#FF171717</color>
+    <color name="custom_color_main_title_color_day">#FFD8D9DB</color>
+    <color name="custom_color_main_title_color_night">#FF474747</color>
+    <color name="custom_color_check_box_thumb_color_day">#FF2F3A4C</color>
+    <color name="custom_color_check_box_thumb_color_night">#FF1D1D1D</color>
+
+    <!-- app相关 -->
+    <color name="custom_color_app_bg_day">#FFEDEFF2</color>      <!-- app背景色 -->
+    <color name="custom_color_app_bg_night">#FF171717</color>      <!-- app背景色 -->
+    <color name="custom_color_app_title_layout_bg_day">#FF2F3A4C</color>      <!-- app标题栏背景色 -->
+    <color name="custom_color_app_title_layout_bg_night">#FF1D1D1D</color>      <!-- app标题栏背景色 -->
+    <color name="custom_color_app_content_layout_bg_day">#FFFFFFFF</color>      <!-- app内容区背景色 -->
+    <color name="custom_color_app_content_layout_bg_night">#FF1D1D1D</color>      <!-- app内容区背景色 -->
+    <color name="custom_color_app_content_layout_div_color_day">#FFF2F2F2</color>      <!-- app内容区分割线颜色 -->
+    <color name="custom_color_app_content_layout_div_color_night">#FF191919</color>      <!-- app内容区分割线颜色 -->
+
+    <!-- 文本相关 -->
+    <color name="custom_color_sub_text_color_day">#FF999999</color>      <!-- 副文本（提示、描述）字体颜色 -->
+    <color name="custom_color_sub_text_color_night">#FF444444</color>      <!-- 副文本（提示、描述）字体颜色 -->
+    <color name="custom_color_main_text_color_day">#FF424242</color>      <!-- 主文本（标题、标签）字体颜色 -->
+    <color name="custom_color_main_text_color_night">#FF666666</color>      <!-- 主文本（标题、标签）字体颜色 -->
+
+    <color name="custom_color_user_photo_place_holder_bg_day">#FF29303B</color>      <!-- 昵称字体颜色 -->
+    <color name="custom_color_user_photo_place_holder_bg_night">#FF171717</color>      <!-- 昵称字体颜色 -->
+    <color name="custom_color_nickname_text_color_day">#FF90959C</color>      <!-- 昵称字体颜色 -->
+    <color name="custom_color_nickname_text_color_night">#FF424242</color>      <!-- 昵称字体颜色 -->
+    <color name="custom_color_remark_text_color_day">#FF5D6571</color>      <!-- 备注字体颜色 -->
+    <color name="custom_color_remark_text_color_night">#FF2D2D2D</color>      <!-- 备注字体颜色 -->
+
+    <color name="custom_color_btn_bg_normal_day">#FFFFFFFF</color>      <!-- 按钮正常情况下背景色 -->
+    <color name="custom_color_btn_bg_normal_night">#FF1D1D1D</color>      <!-- 按钮正常情况下背景色 -->
+    <color name="custom_color_btn_bg_pressed_day">#FFF9F9F9</color>      <!-- 按钮按住情况下背景色 -->
+    <color name="custom_color_btn_bg_pressed_night">#FF1B1B1B</color>      <!-- 按钮按住情况下背景色 -->
+    <color name="custom_color_btn_bg_disable_day">#FFF2F4F6</color>      <!-- 按钮不可点击情况下背景色 -->
+    <color name="custom_color_btn_bg_disable_night">#FF191919</color>      <!-- 按钮不可点击情况下背景色 -->
+    <color name="custom_color_btn_text_color_normal_day">#FF525252</color>      <!-- 按钮正常情况下按钮文本字体颜色 -->
+    <color name="custom_color_btn_text_color_normal_night">#FF666666</color>      <!-- 按钮正常情况下按钮文本字体颜色 -->
+    <color name="custom_color_btn_text_color_pressed_day">#FF818181</color>      <!-- 按钮按住情况下按钮文本字体颜色 -->
+    <color name="custom_color_btn_text_color_pressed_night">#FF4C4C4C</color>      <!-- 按钮按住情况下按钮文本字体颜色 -->
+    <color name="custom_color_btn_text_color_disable_day">#FFE5E6E8</color>      <!-- 按钮不可点击情况下按钮文本字体颜色 -->
+    <color name="custom_color_btn_text_color_disable_night">#FF2B2B2B</color>      <!-- 按钮不可点击情况下按钮文本字体颜色 -->
+</resources>

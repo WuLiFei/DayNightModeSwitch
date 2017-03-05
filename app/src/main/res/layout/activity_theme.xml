@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/custom_attr_app_bg"
+    android:id="@id/custom_id_app_background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:background="?attr/custom_attr_app_title_layout_bg"
+        android:id="@id/custom_id_title_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <RelativeLayout
+        android:background="?attr/custom_attr_app_title_layout_bg"
+        android:id="@id/custom_id_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:padding="3dp"
+            tools:src="#FFFF0000"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/theme_user_photo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="?attr/custom_attr_user_photo_alpha" />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/theme_user_photo"
+            android:layout_alignTop="@+id/theme_user_photo"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical"
+            android:layout_height="72dp" >
+
+            <TextView
+                android:textColor="?attr/custom_attr_nickname_text_color"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/theme_nickname"
+                android:text="码农小阿飞"
+                android:textSize="19dp" />
+
+            <TextView
+                android:textColor="?attr/custom_attr_remark_text_color"
+                android:text="没有名气的Android程序猿"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="3dp"
+                android:id="@+id/theme_remark"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/theme_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:padding="16dp"
+            android:clickable="true"
+            android:text="切换日间模式"
+            android:layout_marginLeft="32dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/theme_btn_turn_day"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="?attr/custom_attr_btn_bg"
+            android:textColor="?attr/custom_attr_btn_text_color" />
+
+        <TextView
+            android:padding="16dp"
+            android:enabled="false"
+            android:clickable="true"
+            android:text="切换夜间模式"
+            android:layout_marginRight="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/theme_btn_turn_night"
+            android:layout_alignParentRight="true"
+            android:background="?attr/custom_attr_btn_bg"
+            android:textColor="?attr/custom_attr_btn_text_color" />
+    </RelativeLayout>
+</LinearLayout>
