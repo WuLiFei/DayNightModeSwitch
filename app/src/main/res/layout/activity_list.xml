@@ -22,8 +22,8 @@
 
         <TextView
             android:textSize="28dp"
-            android:text="MarioStudio"
             android:id="@+id/list_main_title"
+            android:text="@string/organization"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"

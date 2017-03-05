@@ -7,4 +7,6 @@
     <dimen name="custom_dimen_main_tool_bar_height">52dp</dimen>
     <dimen name="custom_dimen_checkbox_bg_radius">14dp</dimen>
     <dimen name="custom_dimen_checkbox_thumb_radius">10dp</dimen>
+    <dimen name="custom_dimen_item_description_text_size">14dp</dimen>
+    <dimen name="custom_dimen_item_title_text_size">18dp</dimen>
 </resources>

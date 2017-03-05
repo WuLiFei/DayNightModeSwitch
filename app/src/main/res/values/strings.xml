@@ -8,4 +8,11 @@
     <string name="o">O</string>
 
     <string name="user_photo_url">http://upload.jianshu.io/users/upload_avatars/430632/3e02d5e90e4b.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/320/h/320</string>
+    <string name="organization">MarioStudio</string>
+    <string name="nickname">码农小阿飞</string>
+    <string name="remark">没有名气的Android程序猿</string>
+    <string name="text_turn_day">切换日间模式</string>
+    <string name="text_turn_night">切换夜间模式</string>
+    <string name="text_title">标题</string>
+    <string name="description">描述</string>
 </resources>

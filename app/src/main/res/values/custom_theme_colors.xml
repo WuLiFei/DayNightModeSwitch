@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="custom_color_check_box_bg_day">#FF29303B</color>
-    <color name="custom_color_check_box_bg_night">#FF171717</color>
-    <color name="custom_color_main_title_color_day">#FFD8D9DB</color>
-    <color name="custom_color_main_title_color_night">#FF474747</color>
-    <color name="custom_color_check_box_thumb_color_day">#FF2F3A4C</color>
-    <color name="custom_color_check_box_thumb_color_night">#FF1D1D1D</color>
+    <color name="custom_color_check_box_bg_day">#FF29303B</color>      <!-- checkbox背景色 -->
+    <color name="custom_color_check_box_bg_night">#FF171717</color>      <!-- checkbox背景色 -->
+    <color name="custom_color_main_title_color_day">#FFD8D9DB</color>      <!-- 主标题文本字体颜色 -->
+    <color name="custom_color_main_title_color_night">#FFBBBBBB</color>      <!-- 主标题文本字体颜色 -->
+    <color name="custom_color_check_box_thumb_color_day">#FF2F3A4C</color>      <!-- thumb背景色 -->
+    <color name="custom_color_check_box_thumb_color_night">#FF1D1D1D</color>      <!-- thumb背景色 -->
 
     <!-- app相关 -->
     <color name="custom_color_app_bg_day">#FFEDEFF2</color>      <!-- app背景色 -->

@@ -25,13 +25,13 @@
 
         <ImageView
             android:padding="3dp"
-            tools:src="#FFFF0000"
             android:layout_width="72dp"
             android:layout_height="72dp"
             android:id="@+id/theme_user_photo"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:alpha="?attr/custom_attr_user_photo_alpha" />
+            android:alpha="?attr/custom_attr_user_photo_alpha"
+            tools:src="?attr/custom_attr_user_photo_place_holder" />
 
         <LinearLayout
             android:layout_toRightOf="@+id/theme_user_photo"
@@ -47,12 +47,12 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:id="@+id/theme_nickname"
-                android:text="码农小阿飞"
+                android:text="@string/nickname"
                 android:textSize="19dp" />
 
             <TextView
                 android:textColor="?attr/custom_attr_remark_text_color"
-                android:text="没有名气的Android程序猿"
+                android:text="@string/remark"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_marginTop="3dp"
@@ -78,7 +78,7 @@
         <TextView
             android:padding="16dp"
             android:clickable="true"
-            android:text="切换日间模式"
+            android:text="@string/text_turn_day"
             android:layout_marginLeft="32dp"
             android:layout_width="wrap_content"
             android:id="@+id/theme_btn_turn_day"
@@ -91,7 +91,7 @@
             android:padding="16dp"
             android:enabled="false"
             android:clickable="true"
-            android:text="切换夜间模式"
+            android:text="@string/text_turn_night"
             android:layout_marginRight="32dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
