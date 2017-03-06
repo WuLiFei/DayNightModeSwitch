@@ -37,6 +37,8 @@ public abstract class BaseActivity extends AppCompatActivity implements ThemeCha
         }
     }
 
+    /**
+     * */
     private void setupActivityBeforeCreate() {
         ((MyApplication) getApplication()).registerObserver(this);
         loadingCurrentTheme();
@@ -90,6 +92,8 @@ public abstract class BaseActivity extends AppCompatActivity implements ThemeCha
         edit.commit();
     }
 
+    /**
+     * */
     public void switchCurrentThemeTag() {
         setThemeTag(0 - getThemeTag());
         loadingCurrentTheme();

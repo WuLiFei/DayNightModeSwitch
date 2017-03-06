@@ -61,9 +61,9 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/theme_recycler_view"
+    <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
+        android:id="@+id/theme_view_pager"
         android:layout_marginTop="12dp"
         android:overScrollMode="never"
         android:layout_height="0dp"
