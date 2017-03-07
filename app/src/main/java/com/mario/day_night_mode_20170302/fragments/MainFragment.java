@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.mario.day_night_mode_20170302.R;
-import com.mario.day_night_mode_20170302.activities.ListActivity;
+import com.mario.day_night_mode_20170302.activities.RecyclerActivity;
 import com.mario.day_night_mode_20170302.helpers.MarioResourceHelper;
 
 import butterknife.BindView;
@@ -152,7 +152,7 @@ public class MainFragment extends BaseFragment {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), ListActivity.class);
+                Intent intent = new Intent(getContext(), RecyclerActivity.class);
                 startActivity(intent);
             }
         }

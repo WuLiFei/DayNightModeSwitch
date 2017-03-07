@@ -12,12 +12,12 @@ import com.mario.day_night_mode_20170302.common.KeyStore;
  * Created by Mario on 2017-03-02.
  */
 
-public class LunchActivity extends BaseActivity {
+public class LaunchActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lunch);
+        setContentView(R.layout.activity_launch);
         initAllViews();
         initAllDatum();
     }

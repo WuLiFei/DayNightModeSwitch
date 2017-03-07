@@ -32,7 +32,7 @@ import butterknife.OnClick;
  * Created by Mario on 2017-03-05.
  */
 
-public class ListActivity extends BaseActivity {
+public class RecyclerActivity extends BaseActivity {
 
     @BindView(R.id.custom_id_app_background)
     public RelativeLayout mAppBackground;
@@ -65,7 +65,7 @@ public class ListActivity extends BaseActivity {
 
     @Override
     public void initAllViews() {
-        setContentView(R.layout.activity_list);
+        setContentView(R.layout.activity_recycler);
         ButterKnife.bind(this);
     }
 
